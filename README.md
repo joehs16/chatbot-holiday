@@ -2,7 +2,7 @@
 
 HolidayBot is a chatbot that helps you book your holiday, be it a hotel or a car rental. 
 
-![](https://github.com/jnganzh/chatbot-holiday/blob/main/demo.png)
+![](https://github.com/jnganzh/chatbot-holiday/blob/main/imgs/demo.png)
 
 ## Amazon Lex
 
@@ -26,11 +26,11 @@ There are a couple of options to deploy the chatbot. You can launch it on a few 
 
 To load test the website, [locust.io](https://locust.io) was used to simulate 1000 simultaneous users at a time accessing the chatbot, with up to 10,000 users total. Documentation of how to install and run locust can be found [here](https://docs.locust.io/en/stable/), but essentially after installing the package, one can use the CLI to launch the .py file then access the localhost through the web browser using the port http://127.0.0.1:8089 , leading to to a GUI that allows you to input the amount of users you want to simulate.
 
-![](https://github.com/jnganzh/chatbot-holiday/blob/main/locust.png)
+![](https://github.com/jnganzh/chatbot-holiday/blob/main/imgs/locust.png)
 
 Load testing allows you to identify if your web design is optimal and if it can server a large number of users.
 
 ### Results of Load Testing
 
 
-![](https://github.com/jnganzh/chatbot-holiday/blob/main/locustio_loadtest.PNG)
+![](https://github.com/jnganzh/chatbot-holiday/blob/main/imgs/locustio_loadtest.PNG)
