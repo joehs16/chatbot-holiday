@@ -11,3 +11,11 @@ Amazon Lex is Amazon's service for building conversational bots or "chatbots" an
 Our project uses Amazon Lex to build a chatbot that can help book hotels and cars for a trip. Test it out [here](https://dr5p7ego6gbjc.cloudfront.net/index.html)!
 
 For a detailed, basic introduction to using Amazon Lex, see [Getting Started with Amazon Lex](https://docs.aws.amazon.com/lex/latest/dg/getting-started.html)
+
+## Load Testing
+
+To load test the website, [locust.io](https://locust.io) was used to simulate 1000 simultaneous users at a time accessing the chatbot, with up to 10,000 users total. Documentation of how to install and run locust can be found [here](https://docs.locust.io/en/stable/), but essentially after installing the package, one can use the CLI to launch the .py file then access the localhost through the web browser using the port http://127.0.0.1:8089 , leading to to a GUI that allows you to input the amount of users you want to simulate.
+
+![](https://github.com/jnganzh/chatbot-holiday/blob/main/locust.png)
+
+Load testing allows you to identify if your web design is optimal and if it can server a large number of users.
