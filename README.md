@@ -12,9 +12,9 @@ Our project uses Amazon Lex to build a chatbot that can help book hotels and car
 
 For a detailed, basic introduction to using Amazon Lex, see [Getting Started with Amazon Lex](https://docs.aws.amazon.com/lex/latest/dg/getting-started.html)
 
-Amazon Lex allows you to input user **intents**. **Intents** are the actions that you want the user to respond to. In our case, we are simulating a travel website that is helping a user book a hotel or rent a car, so our intents walk the user through the location where the user is traveling to and how long they will need the room/rental for.
+## Bot Structure
 
-To help guide the user, **slots** are used to guide the user to what options are available. In our bot, the slots are either renting a car or booking a room.
+Amazon Lex allows you to input user **intents**. **Intents** are the actions that you want the user to respond to. In our case, we are simulating a travel website that is helping a user book a hotel or rent a car, so our intents walk the user through the location where the user is traveling to and how long they will need the room/rental for. An **utterance** invokes the intent, and in our case, an example utterance could be "Book a hotel." To help guide the user, **slots** are used to guide the user to what options are available. In our bot, the slots are either renting a car or booking a room.
 
 ## Load Testing
 
