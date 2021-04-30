@@ -33,3 +33,4 @@ Load testing allows you to identify if your web design is optimal and if it can 
 ### Results of Load Testing
 
 
+![]https://github.com/jnganzh/chatbot-holiday/blob/main/locustio_loadtest.PNG
